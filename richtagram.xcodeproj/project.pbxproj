@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC06E194191EA901000A3BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E193191EA901000A3BE0 /* Foundation.framework */; };
+		FC06E196191EA901000A3BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E195191EA901000A3BE0 /* CoreGraphics.framework */; };
+		FC06E198191EA901000A3BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E197191EA901000A3BE0 /* UIKit.framework */; };
+		FC06E19E191EA901000A3BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC06E19C191EA901000A3BE0 /* InfoPlist.strings */; };
+		FC06E1A0191EA901000A3BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC06E19F191EA901000A3BE0 /* main.m */; };
+		FC06E1A4191EA901000A3BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC06E1A3191EA901000A3BE0 /* AppDelegate.m */; };
+		FC06E1A6191EA901000A3BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC06E1A5191EA901000A3BE0 /* Images.xcassets */; };
+		FC06E1AD191EA901000A3BE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E1AC191EA901000A3BE0 /* XCTest.framework */; };
+		FC06E1AE191EA901000A3BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E193191EA901000A3BE0 /* Foundation.framework */; };
+		FC06E1AF191EA901000A3BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC06E197191EA901000A3BE0 /* UIKit.framework */; };
+		FC06E1B7191EA901000A3BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC06E1B5191EA901000A3BE0 /* InfoPlist.strings */; };
+		FC06E1B9191EA901000A3BE0 /* richtagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC06E1B8191EA901000A3BE0 /* richtagramTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC06E1B0191EA901000A3BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC06E188191EA901000A3BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC06E18F191EA901000A3BE0;
+			remoteInfo = richtagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC06E190191EA901000A3BE0 /* richtagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = richtagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC06E193191EA901000A3BE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC06E195191EA901000A3BE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC06E197191EA901000A3BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC06E19B191EA901000A3BE0 /* richtagram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "richtagram-Info.plist"; sourceTree = "<group>"; };
+		FC06E19D191EA901000A3BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC06E19F191EA901000A3BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC06E1A1191EA901000A3BE0 /* richtagram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "richtagram-Prefix.pch"; sourceTree = "<group>"; };
+		FC06E1A2191EA901000A3BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC06E1A3191EA901000A3BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC06E1A5191EA901000A3BE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC06E1AB191EA901000A3BE0 /* richtagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = richtagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC06E1AC191EA901000A3BE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC06E1B4191EA901000A3BE0 /* richtagramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "richtagramTests-Info.plist"; sourceTree = "<group>"; };
+		FC06E1B6191EA901000A3BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC06E1B8191EA901000A3BE0 /* richtagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = richtagramTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC06E18D191EA901000A3BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E196191EA901000A3BE0 /* CoreGraphics.framework in Frameworks */,
+				FC06E198191EA901000A3BE0 /* UIKit.framework in Frameworks */,
+				FC06E194191EA901000A3BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06E1A8191EA901000A3BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E1AD191EA901000A3BE0 /* XCTest.framework in Frameworks */,
+				FC06E1AF191EA901000A3BE0 /* UIKit.framework in Frameworks */,
+				FC06E1AE191EA901000A3BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC06E187191EA901000A3BE0 = {
+			isa = PBXGroup;
+			children = (
+				FC06E199191EA901000A3BE0 /* richtagram */,
+				FC06E1B2191EA901000A3BE0 /* richtagramTests */,
+				FC06E192191EA901000A3BE0 /* Frameworks */,
+				FC06E191191EA901000A3BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC06E191191EA901000A3BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E190191EA901000A3BE0 /* richtagram.app */,
+				FC06E1AB191EA901000A3BE0 /* richtagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC06E192191EA901000A3BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E193191EA901000A3BE0 /* Foundation.framework */,
+				FC06E195191EA901000A3BE0 /* CoreGraphics.framework */,
+				FC06E197191EA901000A3BE0 /* UIKit.framework */,
+				FC06E1AC191EA901000A3BE0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC06E199191EA901000A3BE0 /* richtagram */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E1A2191EA901000A3BE0 /* AppDelegate.h */,
+				FC06E1A3191EA901000A3BE0 /* AppDelegate.m */,
+				FC06E1A5191EA901000A3BE0 /* Images.xcassets */,
+				FC06E19A191EA901000A3BE0 /* Supporting Files */,
+			);
+			path = richtagram;
+			sourceTree = "<group>";
+		};
+		FC06E19A191EA901000A3BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E19B191EA901000A3BE0 /* richtagram-Info.plist */,
+				FC06E19C191EA901000A3BE0 /* InfoPlist.strings */,
+				FC06E19F191EA901000A3BE0 /* main.m */,
+				FC06E1A1191EA901000A3BE0 /* richtagram-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC06E1B2191EA901000A3BE0 /* richtagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E1B8191EA901000A3BE0 /* richtagramTests.m */,
+				FC06E1B3191EA901000A3BE0 /* Supporting Files */,
+			);
+			path = richtagramTests;
+			sourceTree = "<group>";
+		};
+		FC06E1B3191EA901000A3BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC06E1B4191EA901000A3BE0 /* richtagramTests-Info.plist */,
+				FC06E1B5191EA901000A3BE0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC06E18F191EA901000A3BE0 /* richtagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC06E1BC191EA901000A3BE0 /* Build configuration list for PBXNativeTarget "richtagram" */;
+			buildPhases = (
+				FC06E18C191EA901000A3BE0 /* Sources */,
+				FC06E18D191EA901000A3BE0 /* Frameworks */,
+				FC06E18E191EA901000A3BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = richtagram;
+			productName = richtagram;
+			productReference = FC06E190191EA901000A3BE0 /* richtagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC06E1AA191EA901000A3BE0 /* richtagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC06E1BF191EA901000A3BE0 /* Build configuration list for PBXNativeTarget "richtagramTests" */;
+			buildPhases = (
+				FC06E1A7191EA901000A3BE0 /* Sources */,
+				FC06E1A8191EA901000A3BE0 /* Frameworks */,
+				FC06E1A9191EA901000A3BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC06E1B1191EA901000A3BE0 /* PBXTargetDependency */,
+			);
+			name = richtagramTests;
+			productName = richtagramTests;
+			productReference = FC06E1AB191EA901000A3BE0 /* richtagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC06E188191EA901000A3BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					FC06E1AA191EA901000A3BE0 = {
+						TestTargetID = FC06E18F191EA901000A3BE0;
+					};
+				};
+			};
+			buildConfigurationList = FC06E18B191EA901000A3BE0 /* Build configuration list for PBXProject "richtagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC06E187191EA901000A3BE0;
+			productRefGroup = FC06E191191EA901000A3BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC06E18F191EA901000A3BE0 /* richtagram */,
+				FC06E1AA191EA901000A3BE0 /* richtagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC06E18E191EA901000A3BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E19E191EA901000A3BE0 /* InfoPlist.strings in Resources */,
+				FC06E1A6191EA901000A3BE0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06E1A9191EA901000A3BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E1B7191EA901000A3BE0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC06E18C191EA901000A3BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E1A4191EA901000A3BE0 /* AppDelegate.m in Sources */,
+				FC06E1A0191EA901000A3BE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC06E1A7191EA901000A3BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06E1B9191EA901000A3BE0 /* richtagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC06E1B1191EA901000A3BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC06E18F191EA901000A3BE0 /* richtagram */;
+			targetProxy = FC06E1B0191EA901000A3BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC06E19C191EA901000A3BE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC06E19D191EA901000A3BE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC06E1B5191EA901000A3BE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC06E1B6191EA901000A3BE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC06E1BA191EA901000A3BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC06E1BB191EA901000A3BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC06E1BD191EA901000A3BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "richtagram/richtagram-Prefix.pch";
+				INFOPLIST_FILE = "richtagram/richtagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC06E1BE191EA901000A3BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "richtagram/richtagram-Prefix.pch";
+				INFOPLIST_FILE = "richtagram/richtagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC06E1C0191EA901000A3BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/richtagram.app/richtagram";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "richtagram/richtagram-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "richtagramTests/richtagramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC06E1C1191EA901000A3BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/richtagram.app/richtagram";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "richtagram/richtagram-Prefix.pch";
+				INFOPLIST_FILE = "richtagramTests/richtagramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC06E18B191EA901000A3BE0 /* Build configuration list for PBXProject "richtagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06E1BA191EA901000A3BE0 /* Debug */,
+				FC06E1BB191EA901000A3BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC06E1BC191EA901000A3BE0 /* Build configuration list for PBXNativeTarget "richtagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06E1BD191EA901000A3BE0 /* Debug */,
+				FC06E1BE191EA901000A3BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC06E1BF191EA901000A3BE0 /* Build configuration list for PBXNativeTarget "richtagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC06E1C0191EA901000A3BE0 /* Debug */,
+				FC06E1C1191EA901000A3BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC06E188191EA901000A3BE0 /* Project object */;
+}
